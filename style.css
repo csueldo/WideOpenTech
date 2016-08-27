@@ -4,6 +4,7 @@
 body{
  background-color:red;
  font-family: Oswald;
+ margin: 0;
 }
 .main-container{
   height: 3000px;
@@ -16,12 +17,12 @@ body{
   height: 510px;
   margin: 0 auto;
   padding: 0;
-  background-image: url("http://www.speckygeek.com/uploads/cache/2013/12/technology-791034_1280-800x400.jpg");
+  background-image: url("http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
 }
-.header-container {
+.navbar-container {
   height: 100px;
   width: 100%;
   margin: 0 auto;
@@ -39,9 +40,8 @@ body{
 .main-top-navbar{
   font-size: 16px;
   margin-top: 15px;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
+  position: absolute;
+  right: 21%;
 }
 .navbar-links{
   margin: 10px;
@@ -50,15 +50,18 @@ body{
   top: 120px;
   left: 160px;
   position: absolute;
+  box-sizing: border-box;
   height: 250px;
   width: 600px;
 }
 .workshop-main{
-  display: block;
+  box-sizing: border-box;
   width: 100%;
   line-height: 140px;
-  letter-spacing: 1px;
-  font-size: 100px;
+  font-stretch: ultra-expanded;
+  font-weight: lighter;
+  letter-spacing: 0;
+  font-size: 120px;
 }
 .sub{
   margin-left: 20px;
@@ -70,8 +73,8 @@ body{
   left: 220px;
 }
 .learn-more-button{
-  background-color: red;
-  border: 2px solid red;
+  background-color: #bdd436;
+  border: 2px solid #bdd436;
   color: white;
   text-decoration: none;
   font-weight: 400;
